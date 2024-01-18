@@ -1,0 +1,53 @@
+{
+    "window.zoomLevel": 1,
+    "symbols.hidesExplorerArrows": false,
+    "workbench.colorTheme": "Min Dark",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 1.5,
+    "editor.rulers": [80,120],
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "short",
+    "explorer.compactFolders": false,
+    "workbench.iconTheme": "symbols",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.semanticHighlighting.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "workbench.statusBar.visible": false,
+    "window.titleBarStyle": "native",
+    "apc.electron": {
+        "titleBarStyle": "hiddenInset",
+        "trafficLightPosition": {"x": 11,"y": 12},
+        "frame": false
+    },
+    "apc.header": {
+        "height": 36
+    },
+    "apc.listRow": {"height": 24},
+    "apc.stylesheet": {
+        ".title-label > h2": "display: none",
+        ".editor-actions": "display:none",
+        ".pane-body":"padding: 8px",
+        ".pane-header":"padding:0 8px"
+    },
+    "apc.font.family": "JetBrains Mono",
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.layoutControl.enabled": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "package.json":".eslint*,prettier*, tsconfig*,vite*,pnpm-lock*,package-lock*,bun.lockb",
+        "tailwind.config*":"tailwind.config.*, postcss.config*",
+        ".env.local":".env*",
+        ".env":".env*"
+    },
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBeansMono Nerd Font",
+    "terminal.integrated.fontWeightBold": "bold",
+    "editor.bracketPairColorization.enabled": false
+}
